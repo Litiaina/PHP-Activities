@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZAMBO Manage Menu</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
         body {
@@ -109,7 +110,8 @@
 
     <form action="database.php" method="post">
         <div class="imgcontainer">
-            <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" alt="Avatar" class="avatar">
+            <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw"
+                alt="Avatar" class="avatar">
         </div>
 
         <div class="container">
@@ -117,12 +119,15 @@
             <input type="text" placeholder="Enter menu name" name="name" required>
 
             <label for="psw"><b>Menu Description</b></label>
-            <input type="text" placeholder="Enter description" name="description" required>
+            <input type="text" placeholder="Enter description" name="description">
 
-            <button type="submit">Submit</button>
+            <button type="submit" name="insert">Submit</button>
+            <button type="submit" name="update">Update</button>
+            <button type="submit" name="delete">Delete</button>
         </div>
 
     </form>
+
 
 </body>
 
